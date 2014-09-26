@@ -1,0 +1,15 @@
+{
+  "name": "asim",
+  "version": "0.0.1",
+  "author": "paka",
+  "controllers": {
+    "/": "app.js"
+  },
+  "assets": {
+    "index.html": {
+      "files": [
+        "index.html"
+      ]
+    }
+  }
+}
