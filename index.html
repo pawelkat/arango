@@ -8,7 +8,7 @@
 		angularExample.config(["RestangularProvider",function(RestangularProvider){
 			RestangularProvider.setBaseUrl('api/v1');
 			RestangularProvider.setRestangularFields({
-				id: "_id"
+				id: "_key"
 			});
 		}]);
 		angularExample.controller("MainCtrl",["Restangular","$scope",function(Restangular,$scope){
